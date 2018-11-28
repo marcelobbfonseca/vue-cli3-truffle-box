@@ -9,7 +9,7 @@
     "Test contracts": "truffle test",
     "Run dev server": "npm run serve",
     "Build for production":"npm run build",
-    "Lint":"npm run lint",
+    "Lint":"npm run lint"
   },
   "hooks": {
     "post-unpack": "npm install"
