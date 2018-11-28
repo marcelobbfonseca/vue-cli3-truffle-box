@@ -12,33 +12,29 @@ npm install -g @vue/cli
 npm install -g truffle
 ```
 
-later execute 
+Now you just have to start a new project in an empty folder. easy peasy lemon queezy:
 
 ```
-npm install
+truffle unbox marcelobbfonseca/vue-cli3-truffle-box
 ```
 
-in the project root directory
+## Commands list:
 
-### Compiles and hot-reloads for development
+### Truffle commands:
 ```
-npm run serve
+    truffle compile # Compile contracts
+    truffle migrate # Migrate contracts
+    truffle test 	# Run Tests for your contracts
 ```
-
-### Compiles and minifies for production
+### Vue-Cli3 commands:
 ```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
+    npm run serve # Run dev server
+    npm run build # Build for production
+    npm run lint  # Lints and fixes files
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+For more info in truffle configuration check the oficial docs here:
+https://truffleframework.com
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
