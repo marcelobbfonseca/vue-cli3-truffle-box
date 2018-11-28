@@ -4,9 +4,21 @@
 
 
 ## Project setup
+
+at first install vue-cli3(latest) and truffle.
+
+```
+npm install -g @vue/cli
+npm install -g truffle
+```
+
+later execute 
+
 ```
 npm install
 ```
+
+in the project root directory
 
 ### Compiles and hot-reloads for development
 ```
