@@ -1,0 +1,17 @@
+language: node_js
+
+cache:
+  directories:
+    - ~/.npm
+
+node_js:
+  - '11'
+
+before_script:
+  - npm install -g @vue/cli
+  - npm install -g truffle
+  - npm install
+
+branches:
+  only:
+  - master
